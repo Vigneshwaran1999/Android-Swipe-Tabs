@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JSwipeTabs</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="tab_one_title">Tab One</string>
+    <string name="tab_two_title">Tab Two</string>
+    <string name="tab_three_title">Tab Three</string>
+
+    <string name="content_one">Content one</string>
+    <string name="content_two">Content two</string>
+    <string name="content_three">Content three</string>
+
+</resources>
