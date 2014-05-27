@@ -33,7 +33,6 @@ public class Main extends FragmentActivity implements ActionBar.TabListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //correct work with fragments
         fragmentManager = getSupportFragmentManager();
 
         if (savedInstanceState != null) {
@@ -130,17 +129,17 @@ public class Main extends FragmentActivity implements ActionBar.TabListener {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return getString(R.string.tab_one_title);
+                    return getResources().getString(R.string.tab_one_title);
                 case 1:
-                    return getString(R.string.tab_two_title);
+                    return getResources().getString(R.string.tab_two_title);
                 case 2:
-                    return getString(R.string.tab_three_title);
+                    return getResources().getString(R.string.tab_three_title);
             }
             return null;
         }
     }
 
-    private static String makeFragmentName(int viewId, int index) {//special magic from SO
+    private static String makeFragmentName(int viewId, int index) {//special magic from Stack Overflow
         return "android:switcher:" + viewId + ":" + index;
     }
 }

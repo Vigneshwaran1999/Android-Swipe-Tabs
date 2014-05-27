@@ -1,4 +1,12 @@
+# Android Studio
+.idea/
 .gradle
-/local.properties
-/.idea/workspace.xml
-.DS_Store
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
